@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.main-box {
+    width: 80%;
+    height: 600px;
+    border: 2px solid red;
+    background-image: linear-gradient(to right, hotpink, white, orange);
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: red;
+}
+
+.box-two {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-image: radial-gradient(red, black, white);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box-three {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-image: radial-gradient(circle, red, black, white);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box-four {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-image: radial-gradient(red 10%, blue 15%, orange 30%);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box-five {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-image: repeating-radial-gradient(white 10%, hotpink 12%, blue 15%, yellow 20%);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box-six {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-image: radial-gradient(closest-side at 40% 60%, red, green, blue);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box-seven {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-image: radial-gradient(closest-corner at 30% 70%, blue, red, green);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box-eight {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-image: radial-gradient( farthest-side at 30% 50%, blue, red, green);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box-one {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-image: radial-gradient( farthest-corner at 50% 30%, blue, rgb(218, 44, 44), green);
+    margin-top: 30px;
+    margin-left: 30px;
+}
